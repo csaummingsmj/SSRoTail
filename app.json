@@ -1,0 +1,24 @@
+{
+  "name": "SSR2HeroKu",
+  "description": "Deploy SSRoT to Heroku.",
+  "keywords": ["node","js","Docker"],
+  "env": {
+    "APP_SITE": {
+      "description": "App 站点名称，格式如下示范值。请一定与上面的 App name 完全一致填写，不能啥都不填，因为示范值 YourAppName 是无效的。",
+      "value": "YourAppName.herokuapp.com"
+    },
+
+    "PASSWORD": {
+      "description": "随机 密码, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
+      "value": "349e66cb-6b67-48b6-aaca-68f996540c34"
+    },
+
+    "SECRET_PATH": {
+      "description": "随机 URL 路径, 请使用 uuidgenerator.net 生成一个新的 UUID 替换当前这个, 否则 GFW 很快会封了这服务端.",
+      "value": "81998c75-6209-4e69-92dd-b9128d6d21a5"
+    }
+  },
+  "website": "https://github.com/csaummingsmj/SSRoTail",
+  "repository": "https://github.com/csaummingsmj/SSRoTail",
+  "stack": "container"
+}
